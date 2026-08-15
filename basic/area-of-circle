@@ -1,0 +1,12 @@
+#include<stdio.h>
+// Area of Circle
+int main(){
+   int radius;
+   float pie=3.14;
+
+   printf("Enter the side of square:");
+   scanf("%d",&radius);
+
+   printf("the area of square : %f",pie*radius*radius);
+}
+
