@@ -1,0 +1,24 @@
+#include<stdio.h>
+/*
+Basic Failed Passes Finder 
+*/
+int main (){
+    int marks;
+    
+    printf("Enter the Marks of Student:");
+    scanf("%d",&marks);
+
+    if (marks>30){
+        printf("PASSED \n");
+        if (marks>80){
+            printf("Outstanding Performance \n ");
+        }
+    }
+
+    else {
+        printf("FAILED");
+        printf("Keep it Up \n ");
+    }
+    
+    return 0;
+}
