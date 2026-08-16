@@ -1,0 +1,19 @@
+#include <stdio.h>
+
+// Under Age and Above Age: Using if-else
+int main() {
+    int age;
+
+    printf("Enter The Age: ");
+    scanf("%d", &age);
+
+    if (age >= 18) {
+        printf("You Are an Adult:\n");
+        printf("You are Eligible For Vote:\n");
+    }
+    else {
+        printf("You Are Minor");
+    }
+
+    return 0;
+}
