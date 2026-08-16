@@ -1,0 +1,15 @@
+#include<stdio.h>
+/*
+Basic grading systym using : Using Ternary Operator
+*/
+int main (){
+    int marks;
+
+    printf("Enter The marks:");
+    scanf("%d",&marks);
+    
+   marks>45 ? printf("You Are Passed") : printf("Better Luck Next Times");
+   
+   
+   return 0;
+}
