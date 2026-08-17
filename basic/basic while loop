@@ -1,0 +1,15 @@
+#include<stdio.h>
+//Print the number from 0 to n , if the n is given by user
+int main(){
+    int n, i;
+    printf("Enter any Number:");
+    scanf("%d",&n);
+
+    i = 0;
+    while(i <= n){
+        printf("the number is :%d\n", i);
+        i++;   // <-- this is essential, or it loops forever
+    }
+
+    return 0;
+}
