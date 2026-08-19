@@ -1,0 +1,27 @@
+#include<stdio.h>
+void Indian();
+void French();
+//To ask Nationality and then Go on with their greetings - USING FUNCTION
+int main(){
+  
+    char ch;
+  
+    printf("Enter Nationality : i for Indian : f for French :");
+    scanf("%c",&ch);
+
+    if (ch=='i'){
+        printf("Namaste");
+    }
+    else{
+        printf("Bonjour"); 
+    }
+    return 0;
+}
+  
+
+void Indian(){
+    printf("Namaste");
+}
+void French(){
+    printf("Bonjour");
+}
